@@ -1,0 +1,191 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/automatization/static/css/index.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>  </title>
+    
+    
+<style>/* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.m-3{margin:0.75rem}.mx-auto{margin-left:auto;margin-right:auto}.my-4{margin-top:1rem;margin-bottom:1rem}.my-5{margin-top:1.25rem;margin-bottom:1.25rem}.mt-4{margin-top:1rem}.flex{display:flex}.grid{display:grid}.w-2\/5{width:40%}.w-9\/12{width:75%}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.resize-y{resize:vertical}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-around{justify-content:space-around}.gap-4{gap:1rem}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.rounded-b-md{border-bottom-right-radius:0.375rem;border-bottom-left-radius:0.375rem}.border-2{border-width:2px}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0 / var(--tw-border-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:bg-blue-300:hover{--tw-bg-opacity:1;background-color:rgb(147 197 253 / var(--tw-bg-opacity))}</style></head>
+<body class="bg-gray-200">
+    
+<div class="bg-white w-full flex flex-row justify-around rounded-b-md shadow-md">
+    <img src="https://evalartapp.com/img/presentacionmin.png" class="">
+    <h1 class="text-center text-3xl p-3 m-3">Prueba de automatización </h1>
+</div>
+<div class="w-full my-4">
+        <div class="p-3 bg-white rounded-md w-fit mx-auto my-5 shadow-md">
+            <h2 class="text-center text-2xl"> Complete el siguiente formulario </h2>
+            <div>
+       
+    <div class="my-4">
+
+        <p class="text-xl text-center font-bold"> Ciclos : </p>
+        <p class="text-xl text-center text-green-500">Se encuentra en el ciclo 4 de 10  </p>
+    </div>
+    
+</div>
+        </div>
+    <form class="space-y-10 " method="POST" action="/automatization/forms/answer">
+
+        <div class="flex flex-wrap w-full justify-around my-5">
+            
+            <div class="flex flex-col items-center p-4 space-y-5 bg-white rounded-md w-2/5 shadow-md my-5">
+    <div class="w-9/12 space-y-4">
+        <p class="text-center text-xl">
+            Indique cuantos 🦫 hay en la siguiente secuencia:<br>
+        </p>
+        <p class="text-center text-xl">
+            🐽🐽🦤🐽🦫🦤🦫🦤🦤🐆🦡🦤🐽🐽🦡🦡🦤🐆🦤🦡🦫🦤🐆🦫🐆🐆🐽🦤🦫🦤🦡🐽🦡🦫🦤🦡🐽🦤🦡🐽🐽🐆🦤🦤🦡🦤🦡🐆🦫🦫🐆🦫🦤🦡🦡🐽🦤🦤🐽🐽🦫
+        </p>
+    </div>
+    <input class="border-2 border-black rounded-sm p-2" type="number" name="number" placeholder=" Numero  " required="">
+</div>
+            
+            <div class="bg-white rounded-md shadow-md p-5 flex flex-col items-center my-5 w-2/5 ">
+    <p class="text-center text-xl">Selecciona todos los multiplos de 9</p>
+    <div class="grid grid-cols-4 gap-4 mt-4">
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="84">
+            84
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="163">
+            163
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="160">
+            160
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="81">
+            81
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="94">
+            94
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="114">
+            114
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="25">
+            25
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="33">
+            33
+        </label>
+        
+        <label>
+            <input name="checkbox" type="checkbox" value="178">
+            178
+        </label>
+        
+    </div>
+</div>
+            
+            <div class="flex flex-col p-4 w-2/5 bg-white rounded-md shadow-md my-5 justify-around">
+    <p class="text-center text-xl">
+        Escriba 297 veces la letra "H" 
+    </p>
+    <textarea class="border-2 border-black rounded-sm p-2 resize-y" type="text" name="text" placeholder="Texto" cols="40" rows="8" required=""></textarea>
+</div>
+            
+            <div class="bg-white rounded-md shadow-md p-5  flex flex-col items-center my-5 w-2/5 ">
+        <p class="text-center text-xl">Complete la siguiente operación matemática :</p>
+        <p class="text-center text-xl font-bold">149-248*198*109+69-214*233=?</p>
+    <div class="grid grid-cols-4 gap-4 mt-4">
+        
+        <label>
+            <input type="radio" name="radio" value="-5401984" required="">
+            -5401984
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401980" required="">
+            -5401980
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401977" required="">
+            -5401977
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401973" required="">
+            -5401973
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401972" required="">
+            -5401972
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401971" required="">
+            -5401971
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401970" required="">
+            -5401970
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401964" required="">
+            -5401964
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401994" required="">
+            -5401994
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401993" required="">
+            -5401993
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401990" required="">
+            -5401990
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401988" required="">
+            -5401988
+        </label>
+        
+        <label>
+            <input type="radio" name="radio" value="-5401986" required="">
+            -5401986
+        </label>
+                                       
+    </div>
+</div>
+                
+        </div>
+
+            <div class="flex justify-around w-full"> 
+                <button type="submit" class=" border-black p-2 border-2 rounded-md mx-auto hover:bg-blue-300">
+                    Enviar 
+                </button>
+            </div>
+    </form>
+</div>
+
+    
+    
+
+</body></html>
